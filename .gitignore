@@ -24,4 +24,6 @@ yarn-error.log*
 
 # vscode setting
 .vscode
-.gitignore
+
+# youtube API key
+.env
