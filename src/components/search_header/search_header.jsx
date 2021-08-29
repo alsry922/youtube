@@ -2,7 +2,6 @@ import React, { memo, useRef } from "react";
 import styles from "./search_header.module.css";
 
 const SearchHeader = memo(({ search }) => {
-  console.log("header");
   const inputRef = useRef();
   const handleSearch = () => {
     const value = inputRef.current.value;
